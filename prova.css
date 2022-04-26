@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+body {
+    margin: 0;
+    padding: 60px;
+
+}
+div {
+    display: inline-block;
+    margin-right: 50px;
+
+}
+
+#moviePoster {
+    width: 0;
+    height: 0;
+    border-top: 90px solid transparent;
+    border-bottom: 110px solid transparent;
+    border-left: 110px solid rgb(27, 25, 25);
+    position: fixed;
+    
+}
+.omdbrating{
+    color: rgb(232, 238, 147);
+    font-size: x-large;
+    position: relative;
+    top: 0px;
+    right: 100px;
+}
+#imdbRating {
+    color: rgb(232, 238, 147);
+    font-size: x-large;
+    text-align: left ;
+    position:absolute;
+    right:  70px;
+    top: 25px;
+    
+}
+div {
+    width: 510px;
+    height: 440px;
+    margin: auto;
+    float: left;
+    display: inline-block;
+   
+
+}
+
+#prova {
+    background-color: white;
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#description {
+    background: rgb(27, 25, 25);
+    margin: 0;
+    padding: 25px;
+
+
+}
+.butao{
+    margin-left:40px ;
+    margin-bottom: 30px;
+    
+}
+
+.butao input[type='text'] {
+    background-color: #390F0F;
+    padding: 10px 20px;
+    color:  #ffffff;
+    font-size: 15px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    margin-right: 5px;
+    
+    
+}
+.butao input[type='text']:focus{
+    outline: none;
+        border: 2px solid #fdfcfc;
+    }
+
+.butao input[type='submit'] {
+    padding: 10px 20px;
+    background-color:rgb(253, 253, 247);
+    color:  black;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+input[type='text'], .butao input[type='submit'] {
+    font-size: 15px;
+    width: 38%;
+}
+#movie {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(246, 251, 255);
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+.infoBlue {
+    color: rgb(235, 250, 250);
+    text-align: center;
+    
+}
+
+#movie2 {
+    color: rgb(250, 235, 235);
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 20px;
+}
+
+#movie3 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    margin: 20px 20px;
+}
+
+p {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    margin: 0 20px;
+    margin-bottom: 6px;
+}
+p {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    margin: 0 20px;
+    
+}
